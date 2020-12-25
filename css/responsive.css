@@ -1,0 +1,665 @@
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+
+
+    .header-section {
+        background-size: contain;
+    }
+
+    .hero-slider {
+        padding: 180px 0px 180px;
+    }
+
+    .btn-apply-2 {
+        padding: 15px 20px;
+        font-size: 12px;
+    }
+
+    .bot-btn p .call {
+        font-size: 12px;
+    }
+
+
+    .bot-btn p .num {
+        font-size: 12px;
+    }
+
+    .sign-up-title {
+        margin-top: 10%;
+    }
+
+    .sign-up-title h1 {
+        font-size: 32px;
+    }
+
+    .around-uni {
+        margin-top: -80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar .nav-link {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .nav-link:hover,
+    .nav-link:focus,
+    .nav-link:active {
+        color: #43cb83 !important;
+        border-bottom: none;
+    }
+
+    .navbar-nav .active > .nav-link {
+        font-size: 14px;
+        border-bottom: none;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    /*========Home Section============*/
+
+    .header-section {
+        background-size: contain;
+    }
+
+    .hero-slider {
+        padding: 30px 0px 180px;
+    }
+
+    .hero-inner {
+        padding-bottom: 30px;
+    }
+
+    .hero-inner h1 {
+        font-size: 32px;
+    }
+
+    .hero-inner p {
+        font-size: 16px;
+    }
+
+
+    /*========Department + About Section============*/
+    .department {
+        padding-bottom: 50px;
+        background-size: auto;
+    }
+
+    .depart-img img {
+        width: 30%;
+    }
+
+    .depart-title p {
+        font-size: 14px;
+    }
+
+    .depart-img h5 {
+        font-size: 24px;
+    }
+
+    .about-img img {
+        margin-left: -35px;
+    }
+
+    .about-text h1 {
+        font-size: 26px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    /*========Sign Up Section============*/
+
+    .sign-up-form {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .sign-up-title {
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    .sign-up-title h1 {
+        font-size: 32px;
+    }
+
+    .sign-up form {
+        width: 60%;
+        margin: 0px auto;
+        padding: 60px 70px 80px 30px;
+
+    }
+
+    .sign-up .form-check-label {
+        font-size: 14px;
+        margin-left: -20px;
+    }
+
+    .btn-apply-2 {
+        padding: 15px 20px;
+        font-size: 13px;
+    }
+
+    .bot-btn p .call {
+        font-size: 12px;
+    }
+
+
+    .bot-btn p .num {
+        font-size: 12px;
+    }
+
+    .bb {
+        padding-left: 0px;
+    }
+
+    .ac {
+        padding-left: 10px;
+    }
+
+    /*========Footer Widget + Footer Section============*/
+    .our-uni h1 {
+        font-size: 32px;
+    }
+
+    .our-uni p {
+        font-size: 14px;
+    }
+
+    .uni-btn {
+        margin-top: 33%;
+    }
+
+    .blog h3 {
+        font-size: 26px;
+    }
+
+    /*========Footer Widget + Footer Section============*/
+    .widget-inner img {
+        width: 80%;
+    }
+
+    /*========Footer Widget + Footer Section============*/
+    .widget-inner {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .widget-inner p {
+        font-size: 11px;
+    }
+
+    .widget-inner .list-group span {
+        font-size: 10px;
+    }
+
+    .widget-inner .list-group-item {
+        font-size: 11px;
+        padding: 2px 0px;
+    }
+
+    .footer-social li {
+        font-size: 14px;
+        margin-right: 3px;
+    }
+
+    .copy p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-nav ul {
+        text-align: center;
+    }
+
+    .footer-nav ul li a {
+        font-size: 10px;
+    }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .navbar .nav-link {
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    .nav-link:hover,
+    .nav-link:focus,
+    .nav-link:active {
+        color: #ffc178 !important;
+        border-bottom: none;
+    }
+
+    .navbar-nav .active > .nav-link {
+        font-size: 14px;
+        border-bottom: none;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .btn-apply {
+        margin-top: 20px;
+    }
+
+
+    /*========Home Section============*/
+    .header-section {
+        background-size: contain;
+        text-align: center;
+    }
+
+    .hero-slider {
+        padding: 30px 0px 180px;
+    }
+
+    .hero-inner {
+        padding-bottom: 30px;
+    }
+
+    .hero-inner h1 {
+        font-size: 32px;
+    }
+
+    .hero-inner p {
+        font-size: 16px;
+    }
+
+    /*========Department + About Section============*/
+    .department {
+        padding: 50px 0px;
+        background-size: auto;
+        background: none;
+    }
+
+    .about-img {
+        padding: 0px;
+    }
+
+    .about-text {
+        padding: 10px 0px;
+    }
+
+    .depart-img img {
+        width: 20%;
+    }
+
+    .depart-title p {
+        font-size: 14px;
+    }
+
+    .depart-img h5 {
+        font-size: 24px;
+    }
+
+    .about-img img {
+        margin-left: -35px;
+    }
+
+    .about-text h1 {
+        font-size: 26px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .students h1 {
+        text-align: center;
+    }
+
+    .students p {
+        text-align: center;
+    }
+
+
+    .courses h1 {
+        text-align: center;
+    }
+
+    .courses p {
+        text-align: center;
+    }
+
+
+    .videos h1 {
+        text-align: center;
+    }
+
+    .videos p {
+        text-align: center;
+    }
+
+    /*========Sign Up Section============*/
+
+    .sign-up {
+        background-size: cover;
+    }
+
+    .sign-up-form {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .sign-up-title {
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .sign-up-title h1 {
+        font-size: 26px;
+    }
+
+    .sign-up form {
+        width: 60%;
+        margin: 0px auto;
+        padding: 50px 20px 80px 10px;
+
+    }
+
+    .sign-up .form-check-label {
+        font-size: 14px;
+        margin-left: -20px;
+    }
+
+    .btn-apply-2 {
+        padding: 15px 20px;
+        font-size: 13px;
+    }
+
+    .bot-btn p .call {
+        font-size: 12px;
+    }
+
+
+    .bot-btn p .num {
+        font-size: 12px;
+    }
+
+    .bb {
+        padding-left: 0px;
+    }
+
+    .ac {
+        padding-left: 10px;
+    }
+
+    /*========Our Uni Section============*/
+    .uni-btn {
+        text-align: center;
+        margin-top: -10%;
+    }
+
+    /*========Footer Widget + Footer Section============*/
+    .widget-inner {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .widget-inner p {
+        font-size: 12px;
+    }
+
+    .widget-inner .list-group span {
+        font-size: 10px;
+    }
+
+    .widget-inner .list-group-item {
+        font-size: 12px;
+        padding: 5px 0px;
+    }
+
+    .widget-inner .form-inline {
+        width: 80%;
+    }
+
+    .copy p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-nav ul {
+        text-align: center;
+    }
+
+    .footer-nav ul li a {
+        font-size: 14px;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .navbar .nav-link {
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    .nav-link:hover,
+    .nav-link:focus,
+    .nav-link:active {
+        color: #ffc178 !important;
+        border-bottom: none;
+    }
+
+    .navbar-nav .active > .nav-link {
+        font-size: 14px;
+        border-bottom: none;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .btn-apply {
+        margin-top: 20px;
+    }
+
+
+    /*========Home Section============*/
+    .header-section {
+        background-size: contain;
+        text-align: center;
+    }
+
+    .hero-slider {
+        padding: 30px 0px 180px;
+    }
+
+    .hero-inner {
+        padding-bottom: 30px;
+    }
+
+    .hero-inner h1 {
+        font-size: 22px;
+    }
+
+    .hero-inner p {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+    /*========Department + About Section============*/
+    .department {
+        padding: 50px 0px;
+        background-size: auto;
+        background: none;
+    }
+
+    .about-img {
+        padding: 0px;
+    }
+
+    .about-text {
+        padding: 10px 0px;
+    }
+
+    .depart-img img {
+        width: 40%;
+    }
+    .depart-img{
+        padding: 30px 25px;
+    }
+
+    .depart-title p {
+        font-size: 14px;
+    }
+
+    .depart-img h5 {
+        font-size: 16px;
+    }
+
+    .about-img img {
+        margin-left: -35px;
+    }
+
+    .about-text h1 {
+        font-size: 22px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+        .students h1 {
+        text-align: center;
+    }
+
+    .students p {
+        text-align: center;
+    }
+
+
+    .courses h1 {
+        text-align: center;
+    }
+
+    .courses p {
+        text-align: center;
+    }
+
+
+    .videos h1 {
+        text-align: center;
+    }
+
+    .videos p {
+        text-align: center;
+    }
+
+    /*========Sign Up Section============*/
+
+    .sign-up {
+        background-size: cover;
+    }
+
+    .sign-up-form {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .sign-up-title {
+        margin-top: 10%;
+        text-align: center;
+    }
+    .sign-up-title p{
+        font-size: 10px;
+    }
+    .sign-up-title h1 {
+        font-size: 18px;
+    }
+
+    .sign-up form {
+        width: 100%;
+        margin: 0px auto;
+        padding: 40px 0px 80px 10px;
+
+    }
+
+    .sign-up .form-check-label {
+        font-size: 11px;
+        margin-left: -20px;
+    }
+
+    .btn-apply-2 {
+        padding: 15px 20px;
+        font-size: 13px;
+    }
+
+    .bot-btn p .call {
+        font-size: 12px;
+    }
+
+
+    .bot-btn p .num {
+        font-size: 12px;
+    }
+
+    .bb {
+        padding-left: 0px;
+    }
+
+    .ac {
+        padding-left: 10px;
+    }
+
+    /*========Our Uni Section============*/
+    .uni-btn {
+        text-align: center;
+        margin-top: -10%;
+    }
+    
+    .our-uni h1{
+        font-size: 22px;
+    }
+    .our-uni p{
+        font-size: 14px;
+    }
+    
+    .blog h3{
+        font-size: 18px;
+    }
+    
+    .blog p{
+        font-size: 13px;
+    }
+    /*========Footer Widget + Footer Section============*/
+    .widget-inner {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .copy p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-nav ul {
+        text-align: center;
+    }
+
+    .footer-nav ul li a {
+        font-size: 10px;
+    }
+
+
+}

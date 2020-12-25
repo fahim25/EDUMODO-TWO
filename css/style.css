@@ -1,0 +1,731 @@
+
+/*
+==================================================
+|   |   |   Golobal CSS
+==================================================
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+bodY{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    scroll-behavior: smooth;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+h5,h6{
+    font-family: 'Work Sans', sans-serif;
+    color: #000;
+}
+
+
+/*
+==================================================
+|   |   |   Header Section
+==================================================
+*/
+
+.header-section{
+    width: 100%;
+    background: url('../img/Slider-bg.png') top center no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    width: 100%;
+    position: relative;
+    background: transparent;
+    z-index: 50;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 700;
+    color: #5a6e79;
+    padding-bottom: 2px;
+    margin-left: 20px;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+}
+
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active{
+    color: #43cb83 !important;
+    border-bottom: 2px solid #43cb83;
+}
+
+.navbar-nav .active>.nav-link{
+    font-size: 16px;
+    font-weight: 700;
+    color: #43cb83 !important;
+    border-bottom: 2px solid #43cb83;
+}
+
+
+
+.btn-apply{
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    background: #fff;
+    border: 1px solid #fff;
+    color: #43cb83;
+    border-radius: 30px;
+    margin-left: 20px;
+    -webkit-transition: 1s ease;transition: 1s ease;
+    box-shadow: 1px 3px 8px #ededed,
+                -1px -3px 8px #fafafa;
+    border: 2px solid #fff;
+}
+
+.btn-apply:hover{
+        background:#43cb83;
+    border: 2px solid #43cb83;
+    color: #fff;
+}
+
+
+/*============================Home Section============================*/
+
+.hero-slider{
+    width: 100%;
+    padding: 180px 0px 580px;
+}
+
+.hero-inner{
+    padding: 50px 0px 100px;
+}
+
+.hero-inner h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #43cb83;
+    margin-bottom: 20px;
+}
+
+
+.hero-inner p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #5a6e79;
+}
+
+
+.btn-home{
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    background: #43cb83;
+    border: 1px solid #43cb83;
+    color: #fff;
+    border-radius: 30px;
+    -webkit-transition: 1s ease;transition: 1s ease; 
+    margin-top: 30px;
+}
+
+.btn-home:hover{
+    background: #fff;
+    border: 1px solid #43cb83;
+    color: #43cb83;
+}
+/*
+==================================================
+|   |   |   Department + About Section
+==================================================
+*/
+.department{
+    padding: 0px 0px 150px;
+    background: url('../img/bg-shape.png') left bottom no-repeat;
+    margin-top: -100px;
+}
+
+.depart-img{
+    width: 100%;
+    padding: 60px 25px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.depart-img img{
+    width: 20%;
+}
+
+.depart-img h5{
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+
+.bg-eng{
+    background: #f1e3fc;
+}
+
+.bg-acc{
+    background: #e3fcfa;
+}
+
+.bg-crea{
+    background: #fcf0e3;
+}
+
+.bg-desi{
+    background: #fcf0e3;
+}
+
+.bg-phy{
+    background: #f3fce3;
+}
+.bg-che{
+    background: #e3f3fc;
+}
+
+
+/*============================About Section============================*/
+.gg{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.about-img{
+    width: 100%;
+    padding: 140px 0px 0px;
+}
+
+.about-img img{
+    width: 100%;
+    margin-left: -100px;
+}
+
+.about-text{
+    padding: 90px 0px;
+}
+
+.about-text h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #5a6e79;
+    margin-bottom: 30px;
+}
+
+.students h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #ffba00;
+    margin-bottom: -5px;
+}
+
+.students p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #ffba00;
+}
+
+
+.courses h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #ff5f72;
+    margin-bottom: -5px;
+}
+
+.courses p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #ff5f72;
+}
+
+
+.videos h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #43cb83;
+    margin-bottom: -5px;
+}
+
+.videos p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #43cb83;
+}
+/*
+==================================================
+|   |   |    Sign Up Section
+==================================================
+*/
+.sign-up{
+    padding: 10px 0px;
+    background: url('../img/call%20to%20action.png') top center no-repeat;
+    background-size: contain;
+    margin-top: -50px;
+}
+
+.sign-up-title{
+    margin-top: 20%;
+}
+
+.sign-up-title p{
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #252c3a;
+}
+.sign-up-title p span{
+    color: #fb384d;
+}
+.sign-up-title h1{
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #252c3a;
+}
+
+
+
+.sign-up-form{
+    width: 100%;
+    margin-top: -150px;
+    background: url('../img/form-bg.png') bottom center no-repeat;
+    background-size: cover;
+}
+
+.sign-up form { 
+    
+    width: 100%;
+    margin: 0px auto;
+    padding: 60px 70px 70px 30px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.sign-up form p{
+    font-size: 24px;
+    letter-spacing: 4px;
+    padding: 30px 0px;
+    
+}
+.sign-up label {
+  display: block;
+  position: relative;
+  margin: 10px 0px;
+}
+.sign-up .label-txt {
+  position: absolute;
+  padding: 15px 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #5a6e79;
+  transition: ease .3s;
+}
+.sign-up .input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.sign-up .line-box {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: #d7e4ed;
+}
+
+.sign-up .line {
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #43cb83;
+  transition: ease .6s;
+}
+
+.sign-up .input:focus + .line-box .line {
+  width: 100%;
+}
+
+.sign-up .label-active {
+  top: -3em;
+}
+
+.sign-up .form-check-label{
+   color: #87959c;
+}
+
+.sign-up .form-check-label input{
+    margin-right: 10px;
+}
+.bot-btn{
+    background: transparent;
+    padding: 10px 10px 0px 0px;
+    width: 100%;
+    margin-right: 10px;
+}
+.btn-apply-2{
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    background: #43cb83;
+    border: 1px solid #43cb83;
+    color: #fff;
+    border-radius: 30px;
+    -webkit-transition: 1s ease;transition: 1s ease;
+    border: 2px solid #fff;
+}
+
+.btn-apply-2:hover{
+    background:#fff;
+    border: 2px solid #43cb83;
+    color: #43cb83;
+}
+.ac{
+    margin-left: 16px;
+    font-size: 13px;
+    text-decoration: underline;
+    background: transparent;
+    margin-top: 10px;
+    
+}
+.bot-btn p .call{
+    font-size: 14px;
+    letter-spacing: normal;
+    color: #5a6e79;
+}
+.bot-btn p {
+    margin: 0px;
+    padding: 0px !important;
+}
+.bot-btn p .num{
+    font-size: 16px;
+    color: #5a6e79;
+    letter-spacing: normal;
+}
+.ac a{
+    color: #87959c;
+}
+
+/*
+==================================================
+|   |   |    Sign Up Section
+==================================================
+*/
+.around-uni{
+    width: 100%;
+    padding: 50px 0px;
+    background: #ffffff;
+}
+.oou-uni-bot{
+    border-bottom: 2px solid #eff0f4;
+}
+.our-uni{
+    padding: 20px 0px;
+}
+
+.our-uni h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #43cb83;
+    margin-bottom: 20px;
+}
+
+.our-uni p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5a6e79;
+}
+
+.uni-btn{
+    padding: 20px 0px;
+    text-align: right;
+    margin-top:20%;
+}
+
+.uni-btn a{
+    
+}
+
+.btn-news{
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 400;
+    background: #43cb83;
+    border: 1px solid #43cb83;
+    color: #fff;
+    border-radius: 30px;
+    -webkit-transition: 1s ease;transition: 1s ease;
+    border: 2px solid #fff;
+}
+
+.btn-news:hover{
+        background:#fff;
+    border: 2px solid #43cb83;
+    color: #43cb83;
+}
+
+/*=============blog =============*/
+.blog{
+    padding: 30px 0px 5px 30px;
+}
+
+.blog h3{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.blog p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5a6e79;
+}
+.blog .icon{
+    display: block;
+    list-style: none;
+}
+
+.blog .icon li{
+    display: inline-block;
+}
+
+.blog .icon li .fa{
+    margin-right: 10px;
+}
+
+.blog .icon li .fa:hover{
+    color: #43cb83;
+}
+
+.blog .icon li .fa-commenting:before {
+    margin-left: 10px;
+}
+
+
+.blog .date{
+    text-align: right;
+    text-transform: uppercase;
+}
+
+/*
+==================================================
+|   |   |   Footer Widget + Footer Section
+==================================================
+*/
+.footter-widget{
+    width: 100%;
+}
+.widget{
+   padding: 80px 0px; 
+    background: #252c3a;
+}
+
+
+/*Widget Logo left */
+.widget-inner img{
+    margin-bottom: 20px;
+}
+
+.footer-social{
+    display: block;
+    list-style: none;
+    border-top: 1px solid #303744;
+}
+
+.footer-social li{
+    display: inline-block;
+    font-size: 20px;
+    color: #4a4a4a;
+    margin-right: 5px;
+    margin-top: 20px;
+    -webkit-transition: 1s ease;transition: 1s ease;
+}
+
+.footer-social li:hover{
+    color: #0089fd;
+}
+
+/*Widget List Group */
+
+/*Widget Heading And Para*/
+.widget-inner h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.widget-inner p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #969595;
+}
+
+.widget-inner .list-group{
+    border: 0px;
+    border-radius: 0px;
+}
+.widget-inner .list-group span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #636465;
+}
+.widget-inner .list-group-item{
+    font-size: 14px;
+    font-weight: 400;
+    color: #969595;
+    background: transparent;
+    padding: 10px 0px;
+    border: 0px;
+}
+
+
+/*Footer Widget Support/ Right Side*/
+
+.widget-inner .form-inline{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.widget-inner .form-inline .form-group{
+    width: 100%;
+    margin-left: 0px !important;
+}
+
+.widget-inner .form-inline .form-group .form-control{
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    border-radius: 0px; 
+    padding-left: 25px;
+}
+
+.widget-inner .form-inline .form-group input{
+    font-size: 13px;
+    font-weight: 400;
+    color: #6b6b6b;
+}
+
+.widget-inner .btn-support{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    background: #43cb83;
+    border-radius: 0px;
+    right:0%;
+    height: 60px;
+    padding: 0px 20px;
+}
+
+/*============================Footer Bottom Section============================*/
+
+.footer{
+    padding: 30px 0px 0px;
+    background: #1d232e;
+}
+
+.copy p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6b6b6b;
+    text-align: left;
+}
+
+.copy p span{
+    color: #f4c613;
+    letter-spacing: 1px;
+    -webkit-transition: 1s ease;transition: 1s ease;
+}
+
+.copy p span:hover{
+    color: #fff;
+}
+
+.footer-nav ul{
+    display: block;
+    text-align: right;
+}
+
+.footer-nav ul li{
+    display: inline-block;
+}
+
+.footer-nav ul li a{
+    font-size: 13px;
+    font-weight: 400;
+    color: #6b6b6b;
+    margin-left: 15px;
+}
+
+.footer-nav ul li a:hover{
+    color: #fff;
+}
+/*
+==================================================
+|   |   |   
+==================================================
+*/
+
+
+
+
+
+/*
+==================================================
+
+//For Heading
+font-family: 'Montserrat', sans-serif;
+//For Body + H5+h6 Heading
+font-family: 'Work Sans', sans-serif;
+
+btn color: #43cb83;
+Main color: #43cb83;
+Body text color: #5a6e79;
+Body some section text color: #657882;
+Footer color: #252c3a; 
+Footer text color: #969595;
+Footer Some text color: #6b6b6b;
+
+
+
+
+
+
+
+==================================================
+*/
