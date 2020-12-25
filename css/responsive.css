@@ -185,6 +185,11 @@
     }
 
     /*========Footer Widget + Footer Section============*/
+    
+    .widget{
+        padding: 50px 0px 20px;
+    }
+    
     .widget-inner {
         text-align: left;
         margin-bottom: 50px;
@@ -405,6 +410,9 @@
     }
 
     /*========Footer Widget + Footer Section============*/
+    .widget{
+        padding: 50px 0px 10px;
+    }
     .widget-inner {
         text-align: left;
         margin-bottom: 50px;
@@ -643,6 +651,9 @@
         font-size: 13px;
     }
     /*========Footer Widget + Footer Section============*/
+    .widget{
+        padding: 50px 0px 10px;
+    }
     .widget-inner {
         text-align: left;
         margin-bottom: 50px;
